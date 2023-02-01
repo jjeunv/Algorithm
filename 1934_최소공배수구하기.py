@@ -1,3 +1,8 @@
+def gcd(a, b):
+    while b > 0:
+        a, b = b, a % b
+    return a
+
 test_number = int(input())
 for i in range(test_number):
     num1,num2= map(int,input().split())
@@ -5,8 +10,5 @@ for i in range(test_number):
 
     y.sort()
     
-    for i in range(1,y[0] + 1):
-        if (y[1]*i)%y[0]==0:
-            print(y[1]*i)
-            break
+    print(y[0]*y[1]//gcd(y[1], y[0]))
         

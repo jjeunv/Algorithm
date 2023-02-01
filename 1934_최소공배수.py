@@ -11,4 +11,3 @@ for i in range(test_number):
     y.sort()
     
     print(y[0]*y[1]//gcd(y[1], y[0]))
-        

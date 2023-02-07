@@ -18,21 +18,16 @@ for i in range(M-1) :
     a, b, c = map(int, input().split())
     if a == second :
         rpm = b
-  
         first = a 
         second = b     
-        print(rpm) 
-
+      
     else :
         b = b * (second // a) 
         a = second
-        print(b)
         rpm = b
         
         first = a 
         second = b
-        print(rpm)
-
 
     if c == 0 :
         direction = dirArray[index]

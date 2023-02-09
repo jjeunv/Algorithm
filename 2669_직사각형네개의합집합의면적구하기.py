@@ -1,6 +1,4 @@
-squre1 = list(map(int, input().split()))
-squre2 = list(map(int, input().split()))
-squre3 = list(map(int, input().split()))
-squre4 = list(map(int, input().split()))
+for i in range(4) :
+    num1,num2,num3,num4 : input().split()
 
-
+print(num1)

@@ -52,7 +52,6 @@ for i in range(10000) :
         else :
             count += 1
             compare += 1
-            print(compare, count)
     
     else :
         compare += 1
